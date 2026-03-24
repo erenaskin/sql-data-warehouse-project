@@ -14,14 +14,15 @@ Description:
 ===============================================================================
 */
 
-CREATE OR ALTER PROCEDURE bronze.load_bronze AS
+CREATE OR ALTER PROCEDURE bronze.load_bronze
+AS
 BEGIN
     -- Disables the 'X rows affected' messages to keep logs clean
-    SET NOCOUNT ON; 
+    SET NOCOUNT ON;
 
     DECLARE @start_time DATETIME, @end_time DATETIME;
     DECLARE @batch_start_time DATETIME, @batch_end_time DATETIME;
-    
+
     BEGIN TRY
         SET @batch_start_time = GETDATE();
 
