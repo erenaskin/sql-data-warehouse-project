@@ -1,6 +1,5 @@
 # 📊 Data Warehouse and Analytics Project
 
-Welcome to the **Data Warehouse and Analytics Project** repository! 🚀
 This portfolio project demonstrates an end-to-end data warehousing and business intelligence solution. It showcases industry best practices in data engineering, from building a robust data architecture to generating actionable analytical insights.
 
 ---
@@ -31,7 +30,6 @@ This repository is a comprehensive showcase of the following core data competenc
 * **Database:** SQL Server (SQL Server Express)
 * **Management Tool:** SQL Server Management Studio (SSMS)
 * **Version Control:** Git & GitHub
-* **Data Modeling & Architecture:** Draw.io
 ---
 
 ## 🚀 Project Requirements
@@ -57,11 +55,6 @@ data-warehouse-project/
 │
 ├── datasets/                   # Raw source datasets (ERP and CRM CSV files)
 │
-├── docs/                       # Architecture diagrams and documentation
-│   ├── data_architecture.drawio
-│   ├── data_models.drawio
-│   ├── data_catalog.md         # Field descriptions and metadata
-│   └── naming-conventions.md
 │
 ├── scripts/                    # SQL scripts for ETL and data processing
 │   ├── bronze/                 # DDL and ingestion scripts for raw data
